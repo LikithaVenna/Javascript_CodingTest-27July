@@ -1,0 +1,23 @@
+.body{
+    justify-content:center;
+    align-items:center;
+}
+
+input[type]{
+    width: 25%;
+    height: 30px;
+    border-radius: 5px;
+    margin-bottom: 5px;
+    outline-color: green;
+}
+input[type]:valid{
+    border:2px solid green;
+}
+input[type]:invalid{
+    border:2px solid red;
+}
+.btn{
+    width:25%;
+    height:50px;
+
+}
